@@ -3,8 +3,8 @@
 }
 
 .audio{
+	margin-left: 35%;
 	margin-bottom: 25px;
-	text-align: center;
 }
 
 .home--page{
@@ -27,6 +27,14 @@
 	border: 4px solid black;
 	padding: 4px;
 	padding-right: 30px;
+}
+
+.champ{
+	width: 100%;
+	border: 4px solid black;
+	padding: 4px;
+	padding-right: 30px;
+	border-top: 2px;
 }
 
 .container{
@@ -74,7 +82,4 @@
 	.container{
 		max-width: none;
 	}
-}
-.flexible-audio{
-	max-width: 100%;
 }

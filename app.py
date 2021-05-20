@@ -13,5 +13,9 @@ def index():
 def about_page():
     return render_template('audio-page.html')
 
+@app.route('/add')
+def add_meme():
+	return render_template('add-meme.html')
+
 if __name__ == '__main__':
-    app.run(debug = False)
+    app.run(debug = True)
